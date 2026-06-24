@@ -11,7 +11,7 @@ Production-style **Server-Driven UI (SDUI)** homepage for Kiddo — a React Nati
 - **Central action dispatcher** — `handleAction()` routes `ADD_TO_CART`, `DEEP_LINK`, `APPLY_MYSTERY_GIFT_COUPON`, `BOOK_EVENT`
 - **Live campaign OTA switching** — 3 bundled campaign profiles switch runtime theme + layout instantly
 - **Theme injection** — `ThemeProvider` applies server-driven palette to all nested components
-- **Full-screen overlay** — Lottie animations with `pointerEvents="none"` (no input blocking)
+- **Full-screen overlay component** — `FullScreenOverlay.tsx` with `pointerEvents="none"` (implemented; disabled in demo UI)
 - **Cart isolation** — Zustand per-product selectors; adding to cart does not re-render other blocks
 
 ## Tech Stack
@@ -44,26 +44,87 @@ src/
 
 ## Getting Started
 
+### Prerequisites
+
+- **Node.js** 18+ and **npm**
+- For mobile: **Expo Go** app on your phone (optional)
+
+### Install & run (recommended — web)
+
 ```bash
+# Clone the repo and enter the project folder
+cd kiddo-sdui-homepage
+
 # Install dependencies
 npm install
 
-# Regenerate campaign JSON payloads (optional)
-node scripts/generate-campaigns.mjs
-
-# Start Expo
-npx expo start
+# Start the app in the browser
+npm run start:web
 ```
 
-Scan the QR code with **Expo Go** (Android/iOS) or press `a` for Android emulator / `i` for iOS simulator.
+Open **http://localhost:8081** in your browser. The Kiddo homepage should load with campaign chips, product grids, and cart actions.
+
+> **Note:** The demo video was recorded using `npm run start:web` because Expo Go on a local device could not connect due to network/firewall restrictions. The same React Native codebase runs on mobile via Expo Go on a standard network.
+
+### Other run commands
+
+```bash
+# Expo dev server (for Expo Go / emulator)
+npm start
+
+# Tunnel mode (if phone cannot reach laptop on same WiFi)
+npm run start:tunnel
+
+# TypeScript check
+npm run typecheck
+```
+
+### Optional setup scripts
+
+```bash
+# Regenerate campaign JSON payloads
+node scripts/generate-campaigns.mjs
+
+# Prepare bundled product images (run after fresh clone if images are missing)
+node scripts/prepare-product-images.mjs
+```
+
+### Troubleshooting
+
+**`npm install` fails with SSL certificate error**
+
+A `.npmrc` file with `strict-ssl=false` is included for networks that block npm TLS. If install still fails, try:
+
+```powershell
+$env:NODE_TLS_REJECT_UNAUTHORIZED=0
+npm install
+```
+
+**Expo Go: "failed to download remote update"**
+
+- Use the same WiFi on phone and laptop, or try **phone hotspot**
+- Allow **Node.js** through Windows Firewall (private network)
+- Or use `npm run start:web` for browser demo
+
+**Port 8081 already in use**
+
+Stop the other terminal running Expo (`Ctrl + C`), then run `npm run start:web` again.
+
+### Mobile (Expo Go)
+
+```bash
+npm start
+```
+
+Scan the QR code with **Expo Go** (Android/iOS). Phone and laptop must be on the same network (or use `npm run start:tunnel`).
 
 ## Campaign Profiles
 
 | Campaign | Theme | Special Components |
 |----------|-------|-------------------|
-| Back to School | Yellow + Blue | Lottie paper planes overlay, Lunchboxes & Bags row |
-| Summer Playhouse | Ocean blue | Water splash Lottie, Petting Zoo booking row |
-| Mystery Gift Carnival | Carnival red | Confetti overlay, mystery coupon actions |
+| Back to School | Yellow + Blue | Lunchboxes & Bags row |
+| Summer Playhouse | Ocean blue | Petting Zoo booking row |
+| Mystery Gift Carnival | Carnival red | Mystery coupon actions |
 
 Use the **Live Campaigns (OTA)** chips at the top to switch campaigns instantly.
 
