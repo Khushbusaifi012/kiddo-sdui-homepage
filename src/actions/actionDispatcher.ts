@@ -38,6 +38,9 @@ const handlers: Record<string, ActionHandler> = {
     if (__DEV__) {
       console.log(`[Action] VIEW_CAMPAIGN → ${name}`);
     }
+    useCartStore.setState({
+      lastActionMessage: `Exploring ${name.replace(/-/g, ' ')} festival`,
+    });
   },
 };
 
