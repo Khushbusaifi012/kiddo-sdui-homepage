@@ -1,0 +1,1769 @@
+{
+  "campaign_id": "back-to-school",
+  "campaign_name": "Back to School Mega-Sale",
+  "theme": {
+    "primary": "#FFD100",
+    "secondary": "#0057D9",
+    "background": "#FFFBE6",
+    "surface": "#FFFFFF",
+    "text": "#1A1A2E",
+    "accent": "#0057D9"
+  },
+  "blocks": [
+    {
+      "id": "hero-school",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Back to School Mega-Sale",
+        "subtitle": "Lunchboxes, bags & stationery — up to 50% off",
+        "image_url": "asset://hero-school",
+        "cta_label": "Shop Now"
+      },
+      "action": {
+        "type": "DEEP_LINK",
+        "payload": {
+          "url": "/category/back-to-school"
+        }
+      }
+    },
+    {
+      "id": "lunchboxes-bags",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Lunchboxes & Bags",
+        "subtitle": "Editor picks for school season",
+        "theme_tag": "MEGA SALE",
+        "items": [
+          {
+            "id": "lunchbox-1",
+            "name": "Spiderman Lunchbox",
+            "price": 149,
+            "image_url": "asset://lunchbox-1",
+            "badge": "BESTSELLER",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-1"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-2",
+            "name": "Insulated Tiffin Set",
+            "price": 189,
+            "image_url": "asset://lunchbox-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-2"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 229,
+            "image_url": "asset://lunchbox-3",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-3"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 269,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-4"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-5",
+            "name": "Steel Lunch Box Combo",
+            "price": 309,
+            "image_url": "asset://lunchbox-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-5"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-6",
+            "name": "Mickey Mouse Lunch Bag",
+            "price": 349,
+            "image_url": "asset://lunchbox-3",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-6"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-7",
+            "name": "Leak-proof Lunch Carrier",
+            "price": 389,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-7"
+              }
+            }
+          },
+          {
+            "id": "lunchbox-8",
+            "name": "Unicorn Lunch Set",
+            "price": 429,
+            "image_url": "asset://lunchbox-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "lunchbox-8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-a-grid-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 1",
+        "products": [
+          {
+            "id": "school-9",
+            "name": "Skyline School Backpack",
+            "price": 148,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-9"
+              }
+            }
+          },
+          {
+            "id": "school-10",
+            "name": "Rolling Bag with Lunch",
+            "price": 171,
+            "image_url": "asset://toys-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-10"
+              }
+            }
+          },
+          {
+            "id": "school-11",
+            "name": "Waterproof School Bag",
+            "price": 194,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-11"
+              }
+            }
+          },
+          {
+            "id": "school-12",
+            "name": "Reflective Safety Backpack",
+            "price": 217,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-12"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-a-grid-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 2",
+        "products": [
+          {
+            "id": "school-13",
+            "name": "Lightweight Kids Bag",
+            "price": 240,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-13"
+              }
+            }
+          },
+          {
+            "id": "school-14",
+            "name": "Character Print Backpack",
+            "price": 263,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-14"
+              }
+            }
+          },
+          {
+            "id": "school-15",
+            "name": "Ergonomic School Bag",
+            "price": 286,
+            "image_url": "asset://stationery-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-15"
+              }
+            }
+          },
+          {
+            "id": "school-16",
+            "name": "Dual Compartment Bag",
+            "price": 309,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-16"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-a-grid-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 3",
+        "products": [
+          {
+            "id": "school-17",
+            "name": "Geometry Box Deluxe",
+            "price": 148,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-17"
+              }
+            }
+          },
+          {
+            "id": "school-18",
+            "name": "Crayon Set 24 Shades",
+            "price": 171,
+            "image_url": "asset://snacks-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-18"
+              }
+            }
+          },
+          {
+            "id": "school-19",
+            "name": "Notebook Bundle (5pc)",
+            "price": 194,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-19"
+              }
+            }
+          },
+          {
+            "id": "school-20",
+            "name": "Pencil Pouch Kit",
+            "price": 217,
+            "image_url": "asset://school-bag-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-20"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-a-grid-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 4",
+        "products": [
+          {
+            "id": "school-21",
+            "name": "Marker & Highlighter Set",
+            "price": 240,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-21"
+              }
+            }
+          },
+          {
+            "id": "school-22",
+            "name": "Glue & Scissors Pack",
+            "price": 263,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-22"
+              }
+            }
+          },
+          {
+            "id": "school-23",
+            "name": "A4 Ruled Notebook",
+            "price": 286,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-23"
+              }
+            }
+          },
+          {
+            "id": "school-24",
+            "name": "Art & Craft Starter Kit",
+            "price": 309,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-24"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-a-grid-5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 5",
+        "products": [
+          {
+            "id": "school-25",
+            "name": "Oats Energy Bar (6pc)",
+            "price": 148,
+            "image_url": "asset://lunchbox-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-25"
+              }
+            }
+          },
+          {
+            "id": "school-26",
+            "name": "Fruit Bites Multipack",
+            "price": 171,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-26"
+              }
+            }
+          },
+          {
+            "id": "school-27",
+            "name": "Protein Ladoo Box",
+            "price": 194,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-27"
+              }
+            }
+          },
+          {
+            "id": "school-28",
+            "name": "Mini Cookies Assorted",
+            "price": 217,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-28"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-a-grid-6",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 6",
+        "products": [
+          {
+            "id": "school-29",
+            "name": "Dry Fruit Trail Mix",
+            "price": 240,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-29"
+              }
+            }
+          },
+          {
+            "id": "school-30",
+            "name": "Banana Chips Pack",
+            "price": 263,
+            "image_url": "asset://snacks-2",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-30"
+              }
+            }
+          },
+          {
+            "id": "school-31",
+            "name": "Millet Crackers",
+            "price": 286,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-31"
+              }
+            }
+          },
+          {
+            "id": "school-32",
+            "name": "Yogurt Bites Freeze-Dried",
+            "price": 309,
+            "image_url": "asset://school-bag-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-32"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "snacks-under-99",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Snacks under ₹99",
+        "subtitle": "Quick bites for tiffin breaks",
+        "theme_tag": "VALUE",
+        "items": [
+          {
+            "id": "school-33",
+            "name": "Spiderman Lunchbox",
+            "price": 148,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-33"
+              }
+            }
+          },
+          {
+            "id": "school-34",
+            "name": "Insulated Tiffin Set",
+            "price": 171,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-34"
+              }
+            }
+          },
+          {
+            "id": "school-35",
+            "name": "Bento Box 3-Compartment",
+            "price": 194,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-35"
+              }
+            }
+          },
+          {
+            "id": "school-36",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 217,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-36"
+              }
+            }
+          },
+          {
+            "id": "school-37",
+            "name": "Steel Lunch Box Combo",
+            "price": 240,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-37"
+              }
+            }
+          },
+          {
+            "id": "school-38",
+            "name": "Mickey Mouse Lunch Bag",
+            "price": 263,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-38"
+              }
+            }
+          },
+          {
+            "id": "school-39",
+            "name": "Leak-proof Lunch Carrier",
+            "price": 286,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-39"
+              }
+            }
+          },
+          {
+            "id": "school-40",
+            "name": "Unicorn Lunch Set",
+            "price": 309,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-b-grid-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 1",
+        "products": [
+          {
+            "id": "school-33",
+            "name": "Spiderman Lunchbox",
+            "price": 148,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-33"
+              }
+            }
+          },
+          {
+            "id": "school-34",
+            "name": "Insulated Tiffin Set",
+            "price": 171,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-34"
+              }
+            }
+          },
+          {
+            "id": "school-35",
+            "name": "Bento Box 3-Compartment",
+            "price": 194,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-35"
+              }
+            }
+          },
+          {
+            "id": "school-36",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 217,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-36"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-b-grid-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 2",
+        "products": [
+          {
+            "id": "school-37",
+            "name": "Steel Lunch Box Combo",
+            "price": 240,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-37"
+              }
+            }
+          },
+          {
+            "id": "school-38",
+            "name": "Mickey Mouse Lunch Bag",
+            "price": 263,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-38"
+              }
+            }
+          },
+          {
+            "id": "school-39",
+            "name": "Leak-proof Lunch Carrier",
+            "price": 286,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-39"
+              }
+            }
+          },
+          {
+            "id": "school-40",
+            "name": "Unicorn Lunch Set",
+            "price": 309,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-b-grid-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 3",
+        "products": [
+          {
+            "id": "school-41",
+            "name": "Skyline School Backpack",
+            "price": 148,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-41"
+              }
+            }
+          },
+          {
+            "id": "school-42",
+            "name": "Rolling Bag with Lunch",
+            "price": 171,
+            "image_url": "asset://snacks-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-42"
+              }
+            }
+          },
+          {
+            "id": "school-43",
+            "name": "Waterproof School Bag",
+            "price": 194,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-43"
+              }
+            }
+          },
+          {
+            "id": "school-44",
+            "name": "Reflective Safety Backpack",
+            "price": 217,
+            "image_url": "asset://school-bag-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-44"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-b-grid-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 4",
+        "products": [
+          {
+            "id": "school-45",
+            "name": "Lightweight Kids Bag",
+            "price": 240,
+            "image_url": "asset://stationery-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-45"
+              }
+            }
+          },
+          {
+            "id": "school-46",
+            "name": "Character Print Backpack",
+            "price": 263,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-46"
+              }
+            }
+          },
+          {
+            "id": "school-47",
+            "name": "Ergonomic School Bag",
+            "price": 286,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-47"
+              }
+            }
+          },
+          {
+            "id": "school-48",
+            "name": "Dual Compartment Bag",
+            "price": 309,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-48"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 1",
+        "products": [
+          {
+            "id": "school-f-1-1",
+            "name": "Spiderman Lunchbox",
+            "price": 146,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-1-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-1-2",
+            "name": "Insulated Tiffin Set",
+            "price": 169,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-1-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-1-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 192,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-1-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-1-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 215,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-1-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 2",
+        "products": [
+          {
+            "id": "school-f-2-1",
+            "name": "Spiderman Lunchbox",
+            "price": 154,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-2-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-2-2",
+            "name": "Insulated Tiffin Set",
+            "price": 177,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-2-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-2-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 200,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-2-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-2-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 223,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-2-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 3",
+        "products": [
+          {
+            "id": "school-f-3-1",
+            "name": "Spiderman Lunchbox",
+            "price": 162,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-3-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-3-2",
+            "name": "Insulated Tiffin Set",
+            "price": 185,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-3-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-3-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 208,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-3-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-3-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 231,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-3-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 4",
+        "products": [
+          {
+            "id": "school-f-4-1",
+            "name": "Spiderman Lunchbox",
+            "price": 170,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-4-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-4-2",
+            "name": "Insulated Tiffin Set",
+            "price": 193,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-4-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-4-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 216,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-4-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-4-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 239,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-4-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 5",
+        "products": [
+          {
+            "id": "school-f-5-1",
+            "name": "Spiderman Lunchbox",
+            "price": 178,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-5-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-5-2",
+            "name": "Insulated Tiffin Set",
+            "price": 201,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-5-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-5-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 224,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-5-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-5-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 247,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-5-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-6",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 6",
+        "products": [
+          {
+            "id": "school-f-6-1",
+            "name": "Spiderman Lunchbox",
+            "price": 186,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-6-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-6-2",
+            "name": "Insulated Tiffin Set",
+            "price": 209,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-6-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-6-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 232,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-6-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-6-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 255,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-6-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-7",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 7",
+        "products": [
+          {
+            "id": "school-f-7-1",
+            "name": "Spiderman Lunchbox",
+            "price": 194,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-7-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-7-2",
+            "name": "Insulated Tiffin Set",
+            "price": 217,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-7-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-7-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 240,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-7-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-7-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 263,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-7-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-8",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 8",
+        "products": [
+          {
+            "id": "school-f-8-1",
+            "name": "Spiderman Lunchbox",
+            "price": 202,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-8-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-8-2",
+            "name": "Insulated Tiffin Set",
+            "price": 225,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-8-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-8-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 248,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-8-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-8-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 271,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-8-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-9",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 9",
+        "products": [
+          {
+            "id": "school-f-9-1",
+            "name": "Spiderman Lunchbox",
+            "price": 210,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-9-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-9-2",
+            "name": "Insulated Tiffin Set",
+            "price": 233,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-9-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-9-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 256,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-9-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-9-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 279,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-9-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-10",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 10",
+        "products": [
+          {
+            "id": "school-f-10-1",
+            "name": "Spiderman Lunchbox",
+            "price": 218,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-10-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-10-2",
+            "name": "Insulated Tiffin Set",
+            "price": 241,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-10-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-10-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 264,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-10-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-10-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 287,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-10-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-11",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 11",
+        "products": [
+          {
+            "id": "school-f-11-1",
+            "name": "Spiderman Lunchbox",
+            "price": 226,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-11-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-11-2",
+            "name": "Insulated Tiffin Set",
+            "price": 249,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-11-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-11-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 272,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-11-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-11-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 295,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-11-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-12",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 12",
+        "products": [
+          {
+            "id": "school-f-12-1",
+            "name": "Spiderman Lunchbox",
+            "price": 234,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-12-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-12-2",
+            "name": "Insulated Tiffin Set",
+            "price": 257,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-12-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-12-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 280,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-12-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-12-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 303,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-12-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-13",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 13",
+        "products": [
+          {
+            "id": "school-f-13-1",
+            "name": "Spiderman Lunchbox",
+            "price": 242,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-13-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-13-2",
+            "name": "Insulated Tiffin Set",
+            "price": 265,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-13-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-13-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 288,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-13-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-13-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 311,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-13-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-14",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 14",
+        "products": [
+          {
+            "id": "school-f-14-1",
+            "name": "Spiderman Lunchbox",
+            "price": 250,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-14-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-14-2",
+            "name": "Insulated Tiffin Set",
+            "price": 273,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-14-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-14-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 296,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-14-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-14-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 319,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-14-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-15",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 15",
+        "products": [
+          {
+            "id": "school-f-15-1",
+            "name": "Spiderman Lunchbox",
+            "price": 258,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-15-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-15-2",
+            "name": "Insulated Tiffin Set",
+            "price": 281,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-15-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-15-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 304,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-15-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-15-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 327,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-15-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "school-filler-16",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 16",
+        "products": [
+          {
+            "id": "school-f-16-1",
+            "name": "Spiderman Lunchbox",
+            "price": 266,
+            "image_url": "asset://lunchbox-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-16-1"
+              }
+            }
+          },
+          {
+            "id": "school-f-16-2",
+            "name": "Insulated Tiffin Set",
+            "price": 289,
+            "image_url": "asset://school-bag-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-16-2"
+              }
+            }
+          },
+          {
+            "id": "school-f-16-3",
+            "name": "Bento Box 3-Compartment",
+            "price": 312,
+            "image_url": "asset://stationery-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-16-3"
+              }
+            }
+          },
+          {
+            "id": "school-f-16-4",
+            "name": "Frozen Elsa Lunch Kit",
+            "price": 335,
+            "image_url": "asset://toys-1",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "school-f-16-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unsupported-v2",
+      "type": "NEW_COMPONENT_V2",
+      "data": {
+        "message": "This block should be dropped safely"
+      }
+    }
+  ]
+}

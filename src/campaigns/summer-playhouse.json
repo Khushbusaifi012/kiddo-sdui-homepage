@@ -1,0 +1,1789 @@
+{
+  "campaign_id": "summer-playhouse",
+  "campaign_name": "Summer Playhouse Festival",
+  "theme": {
+    "primary": "#0077BE",
+    "secondary": "#00B4D8",
+    "background": "#E8F6FF",
+    "surface": "#FFFFFF",
+    "text": "#023047",
+    "accent": "#00B4D8"
+  },
+  "blocks": [
+    {
+      "id": "hero-summer",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Summer Playhouse Festival",
+        "subtitle": "Splash into fun — toys, pools & outdoor play",
+        "image_url": "asset://hero-summer",
+        "cta_label": "Explore Festival"
+      },
+      "action": {
+        "type": "VIEW_CAMPAIGN",
+        "payload": {
+          "name": "summer-playhouse"
+        }
+      }
+    },
+    {
+      "id": "summer-essentials",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Summer Essentials",
+        "subtitle": "Beat the heat with curated picks",
+        "theme_tag": "COOL",
+        "items": [
+          {
+            "id": "summer-essential-1",
+            "name": "Kids Swim Goggles",
+            "price": 99,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-1"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-2",
+            "name": "UV Protection Cap",
+            "price": 134,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-2"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-3",
+            "name": "Cotton Summer Romper",
+            "price": 169,
+            "image_url": "asset://pool-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-3"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-4",
+            "name": "Flip-Flops Pair",
+            "price": 204,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-4"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-5",
+            "name": "Sunscreen Kids SPF 50",
+            "price": 239,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-5"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-6",
+            "name": "Hydration Sipper",
+            "price": 274,
+            "image_url": "asset://pool-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-6"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-7",
+            "name": "Cooling Towel",
+            "price": 309,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-7"
+              }
+            }
+          },
+          {
+            "id": "summer-essential-8",
+            "name": "Mosquito Repellent Patch",
+            "price": 344,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-essential-8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "petting-zoo",
+      "type": "EVENT_BOOKING_ROW",
+      "data": {
+        "title": "Petting Zoo Tickets",
+        "description": "Interactive farm experience for kids aged 3-10. Includes feeding session.",
+        "price": 499,
+        "image_url": "asset://petting-zoo",
+        "slots": [
+          "10 AM",
+          "1 PM",
+          "4 PM"
+        ]
+      },
+      "action": {
+        "type": "BOOK_EVENT",
+        "payload": {
+          "event_id": "petting-zoo"
+        }
+      }
+    },
+    {
+      "id": "summer-a-grid-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 1",
+        "products": [
+          {
+            "id": "summer-9",
+            "name": "Kids Swim Goggles",
+            "price": 178,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-9"
+              }
+            }
+          },
+          {
+            "id": "summer-10",
+            "name": "UV Protection Cap",
+            "price": 201,
+            "image_url": "asset://summer-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-10"
+              }
+            }
+          },
+          {
+            "id": "summer-11",
+            "name": "Cotton Summer Romper",
+            "price": 224,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-11"
+              }
+            }
+          },
+          {
+            "id": "summer-12",
+            "name": "Flip-Flops Pair",
+            "price": 247,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-12"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-a-grid-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 2",
+        "products": [
+          {
+            "id": "summer-13",
+            "name": "Sunscreen Kids SPF 50",
+            "price": 270,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-13"
+              }
+            }
+          },
+          {
+            "id": "summer-14",
+            "name": "Hydration Sipper",
+            "price": 293,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-14"
+              }
+            }
+          },
+          {
+            "id": "summer-15",
+            "name": "Cooling Towel",
+            "price": 316,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-15"
+              }
+            }
+          },
+          {
+            "id": "summer-16",
+            "name": "Mosquito Repellent Patch",
+            "price": 339,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-16"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-a-grid-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 3",
+        "products": [
+          {
+            "id": "summer-17",
+            "name": "Beach Ball Set",
+            "price": 178,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-17"
+              }
+            }
+          },
+          {
+            "id": "summer-18",
+            "name": "Water Gun Super Soaker",
+            "price": 201,
+            "image_url": "asset://pool-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-18"
+              }
+            }
+          },
+          {
+            "id": "summer-19",
+            "name": "Sand Castle Kit",
+            "price": 224,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-19"
+              }
+            }
+          },
+          {
+            "id": "summer-20",
+            "name": "Inflatable Pool Ring",
+            "price": 247,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-20"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-a-grid-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 4",
+        "products": [
+          {
+            "id": "summer-21",
+            "name": "Bubble Machine",
+            "price": 270,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-21"
+              }
+            }
+          },
+          {
+            "id": "summer-22",
+            "name": "Frisbee Flying Disc",
+            "price": 293,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-22"
+              }
+            }
+          },
+          {
+            "id": "summer-23",
+            "name": "Outdoor Cricket Set",
+            "price": 316,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-23"
+              }
+            }
+          },
+          {
+            "id": "summer-24",
+            "name": "Splash Pad Mat",
+            "price": 339,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-24"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-a-grid-5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 5",
+        "products": [
+          {
+            "id": "summer-25",
+            "name": "Kids Swim Goggles",
+            "price": 178,
+            "image_url": "asset://toys-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-25"
+              }
+            }
+          },
+          {
+            "id": "summer-26",
+            "name": "UV Protection Cap",
+            "price": 201,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-26"
+              }
+            }
+          },
+          {
+            "id": "summer-27",
+            "name": "Cotton Summer Romper",
+            "price": 224,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-27"
+              }
+            }
+          },
+          {
+            "id": "summer-28",
+            "name": "Flip-Flops Pair",
+            "price": 247,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-28"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-a-grid-6",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 6",
+        "products": [
+          {
+            "id": "summer-29",
+            "name": "Sunscreen Kids SPF 50",
+            "price": 270,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-29"
+              }
+            }
+          },
+          {
+            "id": "summer-30",
+            "name": "Hydration Sipper",
+            "price": 293,
+            "image_url": "asset://pool-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-30"
+              }
+            }
+          },
+          {
+            "id": "summer-31",
+            "name": "Cooling Towel",
+            "price": 316,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-31"
+              }
+            }
+          },
+          {
+            "id": "summer-32",
+            "name": "Mosquito Repellent Patch",
+            "price": 339,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-32"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "pool-party",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Pool Party Picks",
+        "subtitle": "Floaters, goggles & swimwear",
+        "theme_tag": "SPLASH",
+        "items": [
+          {
+            "id": "summer-33",
+            "name": "Beach Ball Set",
+            "price": 178,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-33"
+              }
+            }
+          },
+          {
+            "id": "summer-34",
+            "name": "Water Gun Super Soaker",
+            "price": 201,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-34"
+              }
+            }
+          },
+          {
+            "id": "summer-35",
+            "name": "Sand Castle Kit",
+            "price": 224,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-35"
+              }
+            }
+          },
+          {
+            "id": "summer-36",
+            "name": "Inflatable Pool Ring",
+            "price": 247,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-36"
+              }
+            }
+          },
+          {
+            "id": "summer-37",
+            "name": "Bubble Machine",
+            "price": 270,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-37"
+              }
+            }
+          },
+          {
+            "id": "summer-38",
+            "name": "Frisbee Flying Disc",
+            "price": 293,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-38"
+              }
+            }
+          },
+          {
+            "id": "summer-39",
+            "name": "Outdoor Cricket Set",
+            "price": 316,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-39"
+              }
+            }
+          },
+          {
+            "id": "summer-40",
+            "name": "Splash Pad Mat",
+            "price": 339,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-b-grid-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 1",
+        "products": [
+          {
+            "id": "summer-33",
+            "name": "Beach Ball Set",
+            "price": 178,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-33"
+              }
+            }
+          },
+          {
+            "id": "summer-34",
+            "name": "Water Gun Super Soaker",
+            "price": 201,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-34"
+              }
+            }
+          },
+          {
+            "id": "summer-35",
+            "name": "Sand Castle Kit",
+            "price": 224,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-35"
+              }
+            }
+          },
+          {
+            "id": "summer-36",
+            "name": "Inflatable Pool Ring",
+            "price": 247,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-36"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-b-grid-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 2",
+        "products": [
+          {
+            "id": "summer-37",
+            "name": "Bubble Machine",
+            "price": 270,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-37"
+              }
+            }
+          },
+          {
+            "id": "summer-38",
+            "name": "Frisbee Flying Disc",
+            "price": 293,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-38"
+              }
+            }
+          },
+          {
+            "id": "summer-39",
+            "name": "Outdoor Cricket Set",
+            "price": 316,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-39"
+              }
+            }
+          },
+          {
+            "id": "summer-40",
+            "name": "Splash Pad Mat",
+            "price": 339,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-b-grid-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 3",
+        "products": [
+          {
+            "id": "summer-41",
+            "name": "Kids Swim Goggles",
+            "price": 178,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-41"
+              }
+            }
+          },
+          {
+            "id": "summer-42",
+            "name": "UV Protection Cap",
+            "price": 201,
+            "image_url": "asset://pool-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-42"
+              }
+            }
+          },
+          {
+            "id": "summer-43",
+            "name": "Cotton Summer Romper",
+            "price": 224,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-43"
+              }
+            }
+          },
+          {
+            "id": "summer-44",
+            "name": "Flip-Flops Pair",
+            "price": 247,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-44"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-b-grid-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 4",
+        "products": [
+          {
+            "id": "summer-45",
+            "name": "Sunscreen Kids SPF 50",
+            "price": 270,
+            "image_url": "asset://carnival-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-45"
+              }
+            }
+          },
+          {
+            "id": "summer-46",
+            "name": "Hydration Sipper",
+            "price": 293,
+            "image_url": "asset://summer-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-46"
+              }
+            }
+          },
+          {
+            "id": "summer-47",
+            "name": "Cooling Towel",
+            "price": 316,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-47"
+              }
+            }
+          },
+          {
+            "id": "summer-48",
+            "name": "Mosquito Repellent Patch",
+            "price": 339,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-48"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 1",
+        "products": [
+          {
+            "id": "summer-f-1-1",
+            "name": "Beach Ball Set",
+            "price": 136,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-1-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-1-2",
+            "name": "Water Gun Super Soaker",
+            "price": 159,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-1-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-1-3",
+            "name": "Sand Castle Kit",
+            "price": 182,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-1-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-1-4",
+            "name": "Inflatable Pool Ring",
+            "price": 205,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-1-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 2",
+        "products": [
+          {
+            "id": "summer-f-2-1",
+            "name": "Beach Ball Set",
+            "price": 144,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-2-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-2-2",
+            "name": "Water Gun Super Soaker",
+            "price": 167,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-2-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-2-3",
+            "name": "Sand Castle Kit",
+            "price": 190,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-2-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-2-4",
+            "name": "Inflatable Pool Ring",
+            "price": 213,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-2-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 3",
+        "products": [
+          {
+            "id": "summer-f-3-1",
+            "name": "Beach Ball Set",
+            "price": 152,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-3-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-3-2",
+            "name": "Water Gun Super Soaker",
+            "price": 175,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-3-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-3-3",
+            "name": "Sand Castle Kit",
+            "price": 198,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-3-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-3-4",
+            "name": "Inflatable Pool Ring",
+            "price": 221,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-3-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 4",
+        "products": [
+          {
+            "id": "summer-f-4-1",
+            "name": "Beach Ball Set",
+            "price": 160,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-4-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-4-2",
+            "name": "Water Gun Super Soaker",
+            "price": 183,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-4-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-4-3",
+            "name": "Sand Castle Kit",
+            "price": 206,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-4-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-4-4",
+            "name": "Inflatable Pool Ring",
+            "price": 229,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-4-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 5",
+        "products": [
+          {
+            "id": "summer-f-5-1",
+            "name": "Beach Ball Set",
+            "price": 168,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-5-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-5-2",
+            "name": "Water Gun Super Soaker",
+            "price": 191,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-5-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-5-3",
+            "name": "Sand Castle Kit",
+            "price": 214,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-5-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-5-4",
+            "name": "Inflatable Pool Ring",
+            "price": 237,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-5-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-6",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 6",
+        "products": [
+          {
+            "id": "summer-f-6-1",
+            "name": "Beach Ball Set",
+            "price": 176,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-6-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-6-2",
+            "name": "Water Gun Super Soaker",
+            "price": 199,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-6-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-6-3",
+            "name": "Sand Castle Kit",
+            "price": 222,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-6-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-6-4",
+            "name": "Inflatable Pool Ring",
+            "price": 245,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-6-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-7",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 7",
+        "products": [
+          {
+            "id": "summer-f-7-1",
+            "name": "Beach Ball Set",
+            "price": 184,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-7-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-7-2",
+            "name": "Water Gun Super Soaker",
+            "price": 207,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-7-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-7-3",
+            "name": "Sand Castle Kit",
+            "price": 230,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-7-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-7-4",
+            "name": "Inflatable Pool Ring",
+            "price": 253,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-7-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-8",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 8",
+        "products": [
+          {
+            "id": "summer-f-8-1",
+            "name": "Beach Ball Set",
+            "price": 192,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-8-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-8-2",
+            "name": "Water Gun Super Soaker",
+            "price": 215,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-8-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-8-3",
+            "name": "Sand Castle Kit",
+            "price": 238,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-8-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-8-4",
+            "name": "Inflatable Pool Ring",
+            "price": 261,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-8-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-9",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 9",
+        "products": [
+          {
+            "id": "summer-f-9-1",
+            "name": "Beach Ball Set",
+            "price": 200,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-9-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-9-2",
+            "name": "Water Gun Super Soaker",
+            "price": 223,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-9-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-9-3",
+            "name": "Sand Castle Kit",
+            "price": 246,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-9-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-9-4",
+            "name": "Inflatable Pool Ring",
+            "price": 269,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-9-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-10",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 10",
+        "products": [
+          {
+            "id": "summer-f-10-1",
+            "name": "Beach Ball Set",
+            "price": 208,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-10-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-10-2",
+            "name": "Water Gun Super Soaker",
+            "price": 231,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-10-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-10-3",
+            "name": "Sand Castle Kit",
+            "price": 254,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-10-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-10-4",
+            "name": "Inflatable Pool Ring",
+            "price": 277,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-10-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-11",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 11",
+        "products": [
+          {
+            "id": "summer-f-11-1",
+            "name": "Beach Ball Set",
+            "price": 216,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-11-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-11-2",
+            "name": "Water Gun Super Soaker",
+            "price": 239,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-11-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-11-3",
+            "name": "Sand Castle Kit",
+            "price": 262,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-11-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-11-4",
+            "name": "Inflatable Pool Ring",
+            "price": 285,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-11-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-12",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 12",
+        "products": [
+          {
+            "id": "summer-f-12-1",
+            "name": "Beach Ball Set",
+            "price": 224,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-12-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-12-2",
+            "name": "Water Gun Super Soaker",
+            "price": 247,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-12-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-12-3",
+            "name": "Sand Castle Kit",
+            "price": 270,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-12-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-12-4",
+            "name": "Inflatable Pool Ring",
+            "price": 293,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-12-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-13",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 13",
+        "products": [
+          {
+            "id": "summer-f-13-1",
+            "name": "Beach Ball Set",
+            "price": 232,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-13-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-13-2",
+            "name": "Water Gun Super Soaker",
+            "price": 255,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-13-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-13-3",
+            "name": "Sand Castle Kit",
+            "price": 278,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-13-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-13-4",
+            "name": "Inflatable Pool Ring",
+            "price": 301,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-13-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-14",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 14",
+        "products": [
+          {
+            "id": "summer-f-14-1",
+            "name": "Beach Ball Set",
+            "price": 240,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-14-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-14-2",
+            "name": "Water Gun Super Soaker",
+            "price": 263,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-14-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-14-3",
+            "name": "Sand Castle Kit",
+            "price": 286,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-14-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-14-4",
+            "name": "Inflatable Pool Ring",
+            "price": 309,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-14-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-15",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 15",
+        "products": [
+          {
+            "id": "summer-f-15-1",
+            "name": "Beach Ball Set",
+            "price": 248,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-15-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-15-2",
+            "name": "Water Gun Super Soaker",
+            "price": 271,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-15-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-15-3",
+            "name": "Sand Castle Kit",
+            "price": 294,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-15-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-15-4",
+            "name": "Inflatable Pool Ring",
+            "price": 317,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-15-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-filler-16",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 16",
+        "products": [
+          {
+            "id": "summer-f-16-1",
+            "name": "Beach Ball Set",
+            "price": 256,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-16-1"
+              }
+            }
+          },
+          {
+            "id": "summer-f-16-2",
+            "name": "Water Gun Super Soaker",
+            "price": 279,
+            "image_url": "asset://summer-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-16-2"
+              }
+            }
+          },
+          {
+            "id": "summer-f-16-3",
+            "name": "Sand Castle Kit",
+            "price": 302,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-16-3"
+              }
+            }
+          },
+          {
+            "id": "summer-f-16-4",
+            "name": "Inflatable Pool Ring",
+            "price": 325,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "summer-f-16-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unsupported-v2",
+      "type": "NEW_COMPONENT_V2",
+      "data": {
+        "message": "This block should be dropped safely"
+      }
+    }
+  ]
+}

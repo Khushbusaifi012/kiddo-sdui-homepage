@@ -1,0 +1,1767 @@
+{
+  "campaign_id": "mystery-carnival",
+  "campaign_name": "Mystery Gift Carnival",
+  "theme": {
+    "primary": "#E63946",
+    "secondary": "#C1121F",
+    "background": "#FFF0F0",
+    "surface": "#FFFFFF",
+    "text": "#370617",
+    "accent": "#F77F00"
+  },
+  "blocks": [
+    {
+      "id": "hero-carnival",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Mystery Gift Carnival",
+        "subtitle": "Spin the wheel — unlock surprise rewards on every order",
+        "image_url": "asset://hero-carnival",
+        "cta_label": "Claim Mystery Gift"
+      },
+      "action": {
+        "type": "APPLY_MYSTERY_GIFT_COUPON",
+        "payload": {}
+      }
+    },
+    {
+      "id": "mystery-deals",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Mystery Deal Row",
+        "subtitle": "Tap to reveal carnival specials",
+        "theme_tag": "CARNIVAL",
+        "items": [
+          {
+            "id": "carnival-deal-1",
+            "name": "Mystery Gift Box",
+            "price": 59,
+            "image_url": "asset://carnival-1",
+            "badge": "MYSTERY",
+            "action": {
+              "type": "APPLY_MYSTERY_GIFT_COUPON",
+              "payload": {
+                "code": "MYSTERY50"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-2",
+            "name": "Surprise Toy Hamper",
+            "price": 89,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-3",
+            "name": "Carnival Candy Jar",
+            "price": 119,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-4",
+            "name": "LED Party Wand",
+            "price": 149,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-4"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-5",
+            "name": "Pinata Fillers Kit",
+            "price": 179,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-5"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-6",
+            "name": "Magic Trick Set",
+            "price": 209,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-6"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-7",
+            "name": "Sticker Treasure Pack",
+            "price": 239,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-7"
+              }
+            }
+          },
+          {
+            "id": "carnival-deal-8",
+            "name": "Spin Wheel Reward",
+            "price": 269,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-deal-8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-a-grid-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 1",
+        "products": [
+          {
+            "id": "carnival-9",
+            "name": "Confetti Popper (3pc)",
+            "price": 128,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-9"
+              }
+            }
+          },
+          {
+            "id": "carnival-10",
+            "name": "Birthday Banner Kit",
+            "price": 151,
+            "image_url": "asset://carnival-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-10"
+              }
+            }
+          },
+          {
+            "id": "carnival-11",
+            "name": "Party Hat Bundle",
+            "price": 174,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-11"
+              }
+            }
+          },
+          {
+            "id": "carnival-12",
+            "name": "Balloon Arch Set",
+            "price": 197,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-12"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-a-grid-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 2",
+        "products": [
+          {
+            "id": "carnival-13",
+            "name": "Cake Topper Pack",
+            "price": 220,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-13"
+              }
+            }
+          },
+          {
+            "id": "carnival-14",
+            "name": "Return Gift Box",
+            "price": 243,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-14"
+              }
+            }
+          },
+          {
+            "id": "carnival-15",
+            "name": "Glitter Face Paint",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-15"
+              }
+            }
+          },
+          {
+            "id": "carnival-16",
+            "name": "Noise-free Party Horn",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-16"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-a-grid-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 3",
+        "products": [
+          {
+            "id": "carnival-17",
+            "name": "Mystery Gift Box",
+            "price": 128,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-17"
+              }
+            }
+          },
+          {
+            "id": "carnival-18",
+            "name": "Surprise Toy Hamper",
+            "price": 151,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-18"
+              }
+            }
+          },
+          {
+            "id": "carnival-19",
+            "name": "Carnival Candy Jar",
+            "price": 174,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-19"
+              }
+            }
+          },
+          {
+            "id": "carnival-20",
+            "name": "LED Party Wand",
+            "price": 197,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-20"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-a-grid-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 4",
+        "products": [
+          {
+            "id": "carnival-21",
+            "name": "Pinata Fillers Kit",
+            "price": 220,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-21"
+              }
+            }
+          },
+          {
+            "id": "carnival-22",
+            "name": "Magic Trick Set",
+            "price": 243,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-22"
+              }
+            }
+          },
+          {
+            "id": "carnival-23",
+            "name": "Sticker Treasure Pack",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-23"
+              }
+            }
+          },
+          {
+            "id": "carnival-24",
+            "name": "Spin Wheel Reward",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-24"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-a-grid-5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 5",
+        "products": [
+          {
+            "id": "carnival-25",
+            "name": "Confetti Popper (3pc)",
+            "price": 128,
+            "image_url": "asset://toys-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-25"
+              }
+            }
+          },
+          {
+            "id": "carnival-26",
+            "name": "Birthday Banner Kit",
+            "price": 151,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-26"
+              }
+            }
+          },
+          {
+            "id": "carnival-27",
+            "name": "Party Hat Bundle",
+            "price": 174,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-27"
+              }
+            }
+          },
+          {
+            "id": "carnival-28",
+            "name": "Balloon Arch Set",
+            "price": 197,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-28"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-a-grid-6",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 6",
+        "products": [
+          {
+            "id": "carnival-29",
+            "name": "Cake Topper Pack",
+            "price": 220,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-29"
+              }
+            }
+          },
+          {
+            "id": "carnival-30",
+            "name": "Return Gift Box",
+            "price": 243,
+            "image_url": "asset://toys-2",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-30"
+              }
+            }
+          },
+          {
+            "id": "carnival-31",
+            "name": "Glitter Face Paint",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-31"
+              }
+            }
+          },
+          {
+            "id": "carnival-32",
+            "name": "Noise-free Party Horn",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-32"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "party-favors",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Party Favors",
+        "subtitle": "Confetti, caps & celebration kits",
+        "theme_tag": "POP",
+        "items": [
+          {
+            "id": "carnival-33",
+            "name": "Mystery Gift Box",
+            "price": 128,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-33"
+              }
+            }
+          },
+          {
+            "id": "carnival-34",
+            "name": "Surprise Toy Hamper",
+            "price": 151,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-34"
+              }
+            }
+          },
+          {
+            "id": "carnival-35",
+            "name": "Carnival Candy Jar",
+            "price": 174,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-35"
+              }
+            }
+          },
+          {
+            "id": "carnival-36",
+            "name": "LED Party Wand",
+            "price": 197,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-36"
+              }
+            }
+          },
+          {
+            "id": "carnival-37",
+            "name": "Pinata Fillers Kit",
+            "price": 220,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-37"
+              }
+            }
+          },
+          {
+            "id": "carnival-38",
+            "name": "Magic Trick Set",
+            "price": 243,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-38"
+              }
+            }
+          },
+          {
+            "id": "carnival-39",
+            "name": "Sticker Treasure Pack",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-39"
+              }
+            }
+          },
+          {
+            "id": "carnival-40",
+            "name": "Spin Wheel Reward",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-b-grid-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 1",
+        "products": [
+          {
+            "id": "carnival-33",
+            "name": "Mystery Gift Box",
+            "price": 128,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-33"
+              }
+            }
+          },
+          {
+            "id": "carnival-34",
+            "name": "Surprise Toy Hamper",
+            "price": 151,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-34"
+              }
+            }
+          },
+          {
+            "id": "carnival-35",
+            "name": "Carnival Candy Jar",
+            "price": 174,
+            "image_url": "asset://baby-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-35"
+              }
+            }
+          },
+          {
+            "id": "carnival-36",
+            "name": "LED Party Wand",
+            "price": 197,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-36"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-b-grid-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 2",
+        "products": [
+          {
+            "id": "carnival-37",
+            "name": "Pinata Fillers Kit",
+            "price": 220,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-37"
+              }
+            }
+          },
+          {
+            "id": "carnival-38",
+            "name": "Magic Trick Set",
+            "price": 243,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-38"
+              }
+            }
+          },
+          {
+            "id": "carnival-39",
+            "name": "Sticker Treasure Pack",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-39"
+              }
+            }
+          },
+          {
+            "id": "carnival-40",
+            "name": "Spin Wheel Reward",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-b-grid-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 3",
+        "products": [
+          {
+            "id": "carnival-41",
+            "name": "Confetti Popper (3pc)",
+            "price": 128,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-41"
+              }
+            }
+          },
+          {
+            "id": "carnival-42",
+            "name": "Birthday Banner Kit",
+            "price": 151,
+            "image_url": "asset://toys-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-42"
+              }
+            }
+          },
+          {
+            "id": "carnival-43",
+            "name": "Party Hat Bundle",
+            "price": 174,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-43"
+              }
+            }
+          },
+          {
+            "id": "carnival-44",
+            "name": "Balloon Arch Set",
+            "price": 197,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-44"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-b-grid-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Top Picks 4",
+        "products": [
+          {
+            "id": "carnival-45",
+            "name": "Cake Topper Pack",
+            "price": 220,
+            "image_url": "asset://carnival-1",
+            "badge": "NEW",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-45"
+              }
+            }
+          },
+          {
+            "id": "carnival-46",
+            "name": "Return Gift Box",
+            "price": 243,
+            "image_url": "asset://carnival-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-46"
+              }
+            }
+          },
+          {
+            "id": "carnival-47",
+            "name": "Glitter Face Paint",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-47"
+              }
+            }
+          },
+          {
+            "id": "carnival-48",
+            "name": "Noise-free Party Horn",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-48"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-1",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 1",
+        "products": [
+          {
+            "id": "carnival-f-1-1",
+            "name": "Mystery Gift Box",
+            "price": 116,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-1-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-1-2",
+            "name": "Surprise Toy Hamper",
+            "price": 139,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-1-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-1-3",
+            "name": "Carnival Candy Jar",
+            "price": 162,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-1-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-1-4",
+            "name": "LED Party Wand",
+            "price": 185,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-1-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-2",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 2",
+        "products": [
+          {
+            "id": "carnival-f-2-1",
+            "name": "Mystery Gift Box",
+            "price": 124,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-2-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-2-2",
+            "name": "Surprise Toy Hamper",
+            "price": 147,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-2-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-2-3",
+            "name": "Carnival Candy Jar",
+            "price": 170,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-2-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-2-4",
+            "name": "LED Party Wand",
+            "price": 193,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-2-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 3",
+        "products": [
+          {
+            "id": "carnival-f-3-1",
+            "name": "Mystery Gift Box",
+            "price": 132,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-3-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-3-2",
+            "name": "Surprise Toy Hamper",
+            "price": 155,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-3-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-3-3",
+            "name": "Carnival Candy Jar",
+            "price": 178,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-3-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-3-4",
+            "name": "LED Party Wand",
+            "price": 201,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-3-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-4",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 4",
+        "products": [
+          {
+            "id": "carnival-f-4-1",
+            "name": "Mystery Gift Box",
+            "price": 140,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-4-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-4-2",
+            "name": "Surprise Toy Hamper",
+            "price": 163,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-4-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-4-3",
+            "name": "Carnival Candy Jar",
+            "price": 186,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-4-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-4-4",
+            "name": "LED Party Wand",
+            "price": 209,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-4-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-5",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 5",
+        "products": [
+          {
+            "id": "carnival-f-5-1",
+            "name": "Mystery Gift Box",
+            "price": 148,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-5-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-5-2",
+            "name": "Surprise Toy Hamper",
+            "price": 171,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-5-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-5-3",
+            "name": "Carnival Candy Jar",
+            "price": 194,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-5-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-5-4",
+            "name": "LED Party Wand",
+            "price": 217,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-5-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-6",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 6",
+        "products": [
+          {
+            "id": "carnival-f-6-1",
+            "name": "Mystery Gift Box",
+            "price": 156,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-6-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-6-2",
+            "name": "Surprise Toy Hamper",
+            "price": 179,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-6-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-6-3",
+            "name": "Carnival Candy Jar",
+            "price": 202,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-6-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-6-4",
+            "name": "LED Party Wand",
+            "price": 225,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-6-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-7",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 7",
+        "products": [
+          {
+            "id": "carnival-f-7-1",
+            "name": "Mystery Gift Box",
+            "price": 164,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-7-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-7-2",
+            "name": "Surprise Toy Hamper",
+            "price": 187,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-7-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-7-3",
+            "name": "Carnival Candy Jar",
+            "price": 210,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-7-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-7-4",
+            "name": "LED Party Wand",
+            "price": 233,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-7-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-8",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 8",
+        "products": [
+          {
+            "id": "carnival-f-8-1",
+            "name": "Mystery Gift Box",
+            "price": 172,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-8-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-8-2",
+            "name": "Surprise Toy Hamper",
+            "price": 195,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-8-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-8-3",
+            "name": "Carnival Candy Jar",
+            "price": 218,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-8-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-8-4",
+            "name": "LED Party Wand",
+            "price": 241,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-8-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-9",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 9",
+        "products": [
+          {
+            "id": "carnival-f-9-1",
+            "name": "Mystery Gift Box",
+            "price": 180,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-9-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-9-2",
+            "name": "Surprise Toy Hamper",
+            "price": 203,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-9-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-9-3",
+            "name": "Carnival Candy Jar",
+            "price": 226,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-9-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-9-4",
+            "name": "LED Party Wand",
+            "price": 249,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-9-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-10",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 10",
+        "products": [
+          {
+            "id": "carnival-f-10-1",
+            "name": "Mystery Gift Box",
+            "price": 188,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-10-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-10-2",
+            "name": "Surprise Toy Hamper",
+            "price": 211,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-10-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-10-3",
+            "name": "Carnival Candy Jar",
+            "price": 234,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-10-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-10-4",
+            "name": "LED Party Wand",
+            "price": 257,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-10-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-11",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 11",
+        "products": [
+          {
+            "id": "carnival-f-11-1",
+            "name": "Mystery Gift Box",
+            "price": 196,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-11-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-11-2",
+            "name": "Surprise Toy Hamper",
+            "price": 219,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-11-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-11-3",
+            "name": "Carnival Candy Jar",
+            "price": 242,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-11-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-11-4",
+            "name": "LED Party Wand",
+            "price": 265,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-11-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-12",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 12",
+        "products": [
+          {
+            "id": "carnival-f-12-1",
+            "name": "Mystery Gift Box",
+            "price": 204,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-12-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-12-2",
+            "name": "Surprise Toy Hamper",
+            "price": 227,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-12-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-12-3",
+            "name": "Carnival Candy Jar",
+            "price": 250,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-12-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-12-4",
+            "name": "LED Party Wand",
+            "price": 273,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-12-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-13",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 13",
+        "products": [
+          {
+            "id": "carnival-f-13-1",
+            "name": "Mystery Gift Box",
+            "price": 212,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-13-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-13-2",
+            "name": "Surprise Toy Hamper",
+            "price": 235,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-13-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-13-3",
+            "name": "Carnival Candy Jar",
+            "price": 258,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-13-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-13-4",
+            "name": "LED Party Wand",
+            "price": 281,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-13-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-14",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 14",
+        "products": [
+          {
+            "id": "carnival-f-14-1",
+            "name": "Mystery Gift Box",
+            "price": 220,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-14-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-14-2",
+            "name": "Surprise Toy Hamper",
+            "price": 243,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-14-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-14-3",
+            "name": "Carnival Candy Jar",
+            "price": 266,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-14-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-14-4",
+            "name": "LED Party Wand",
+            "price": 289,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-14-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-15",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 15",
+        "products": [
+          {
+            "id": "carnival-f-15-1",
+            "name": "Mystery Gift Box",
+            "price": 228,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-15-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-15-2",
+            "name": "Surprise Toy Hamper",
+            "price": 251,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-15-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-15-3",
+            "name": "Carnival Candy Jar",
+            "price": 274,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-15-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-15-4",
+            "name": "LED Party Wand",
+            "price": 297,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-15-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-filler-16",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Quick Buys 16",
+        "products": [
+          {
+            "id": "carnival-f-16-1",
+            "name": "Mystery Gift Box",
+            "price": 236,
+            "image_url": "asset://toys-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-16-1"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-16-2",
+            "name": "Surprise Toy Hamper",
+            "price": 259,
+            "image_url": "asset://carnival-2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-16-2"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-16-3",
+            "name": "Carnival Candy Jar",
+            "price": 282,
+            "image_url": "asset://baby-1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-16-3"
+              }
+            }
+          },
+          {
+            "id": "carnival-f-16-4",
+            "name": "LED Party Wand",
+            "price": 305,
+            "image_url": "asset://snacks-2",
+            "badge": "HOT",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "carnival-f-16-4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "unsupported-v2",
+      "type": "NEW_COMPONENT_V2",
+      "data": {
+        "message": "This block should be dropped safely"
+      }
+    }
+  ]
+}
