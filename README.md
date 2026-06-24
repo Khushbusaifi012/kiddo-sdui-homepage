@@ -88,23 +88,3 @@ const quantity = useCartStore((s) => s.quantities[productId] ?? 0);
 ```
 
 `BlockRenderer` is memoized with referential equality on `block.data` — campaign switch replaces the full payload reference, but cart updates only touch the affected `ProductCard`.
-
-### Resilience
-
-Unsupported `block.type` values log a dev warning and return `null` — the surrounding feed remains stable.
-
-## Type Checking
-
-```bash
-npm run typecheck
-```
-
-## Submission
-
-- GitHub repo link
-- This README covers setup + architecture
-- Optional: screen recording showing campaign switch, scroll, add-to-cart
-
----
-
-Built for Kiddo SDE Intern assignment — SDUI Homepage Renderer.
